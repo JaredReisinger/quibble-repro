@@ -1,0 +1,24 @@
+{
+  "name": "quibble-repro",
+  "version": "0.0.1",
+  "description": "minimal repro of quibble replaceEsm problem",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node ./index.mjs",
+    "repro": "node --loader=quibble ./repro.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaredReisinger/quibble-repro.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/JaredReisinger/quibble-repro/issues"
+  },
+  "homepage": "https://github.com/JaredReisinger/quibble-repro#readme",
+  "dependencies": {
+    "quibble": "^0.6.3"
+  }
+}
